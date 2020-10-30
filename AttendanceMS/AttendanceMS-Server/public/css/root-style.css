@@ -1,0 +1,114 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+html {
+    min-width: 280px !important;
+}
+
+body {
+    background-color: #455a64;
+}
+
+.container {
+    margin: 0;
+    border: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    min-width: 100%;
+}
+
+@media (max-width: 426px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+#index-banner:after {
+  background-color: rgba(36, 29, 27, 0.82);
+  overflow: hidden;
+  height: 100%;
+  z-index: 1;
+}
+
+.parallax > img {
+  opacity: 0.3;
+}
+
+@media (max-width: 1000px) and (min-width: 426px) {
+
+  .res-font {
+    font-size: 2em;
+  }
+
+  .parallax-container {
+    min-height: 550px;
+  }
+}
+
+@media (max-width: 426px) {
+
+  .res-font {
+    font-size: 2.29em;
+  }
+
+  .parallax-container {
+    min-height: 555px;
+  }
+}
